@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Captivating Animal Image</title>
+</head>
+<body>
+<h1>Look Who's Here! A Majestic Animal</h1>
+<figure>
+<img src="animal.jpg" alt="A close-up of a majestic animal (replace with actual animal name)." width="300" height="400">
+<figcaption>A captivating image of an animal</figcaption>
+</figure>
+</body>
+</html>
