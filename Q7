@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Employee Registration</title>
+<style>
+/* Add basic styles here (optional) */
+h1 {
+color: red; /* Maintain color preference */
+text-align: center; /* Center alignment */
+}
+label {
+font-size: 20px;
+}
+table {
+margin: 0 auto; /* Center table horizontally */
+width: 50%; /* Adjust table width as needed */
+}
+td {
+padding: 5px;  /* Add some padding for better spacing */
+}
+input[type="text"], input[type="email"], input[type="tel"] {
+width: 100%; /* Make input fields wider */
+padding: 5px; /* Add padding for easier typing */
+box-sizing: border-box; /* Include border/padding in width calculation */
+}
+</style>
+</head>
+<body>
+<h1>Employee Registration Form</h1>
+
+<form action="submit_employee.php" method="post">
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td><label for="title">Title:</label></td>
+<td>
+<fieldset>
+<input type="radio" id="mr" name="title" value="Mr">
+<label for="mr">Mr.</label>
+<input type="radio" id="mrs" name="title" value="Mrs">
+<label for="mrs">Mrs.</label>
+<input type="radio" id="ms" name="title" value="Ms">
+<label for="ms">Ms.</label>
+</fieldset>
+</td>
+</tr>
+
+<tr>
+<td><label for="name">First Name:</label></td>
+<td>
+<input type="text" id="name" name="name" maxlength="50" required>
+</td>
+</tr>
+
+<tr>
+<td><label for="lname">Last Name:</label></td>
+<td>
+<input type="text" id="lname" name="lname" required>
+</td>
+</tr>
+
+<tr>
+<td><label for="email">Email Address 1:</label></td>
+<td>
+<input type="email" id="email" name="email" required>
+</td>
+</tr>
+
+<tr>
+<td><label for="email2">Email Address 2 (optional):</label></td>
+<td>
+<input type="email" id="email2" name="email2">
+</td>
+</tr>
+
+<tr>
+<td><label for="city">City:</label></td>
+<td>
+<input type="text" id="city" name="city" required>
+</td>
+</tr>
+
+<tr>
+<td><label for="phone">Phone Number:</label></td>
+<td>
+<input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="+91" required>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<input type="submit" value="Submit">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
