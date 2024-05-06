@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boost Your Web Dev Skills - Resources & Activities</title>
+<style>
+/* Add basic styles here (optional) */
+</style>
+</head>
+<body>
+<h1>Dive Deeper into Web Development</h1>
+<section class="activities">
+<h2>Activities to Enhance Your Learning</h2>
+<ol>
+<li>Develop programs related to covered topics in a hands-on computer lab environment.</li>
+<li>Create a practical module that can be applied in real-world scenarios.</li>
+<li>Prepare a multimedia presentation showcasing your developed module.</li>
+</ol>
+</section>
+<section class="resources">
+<h2>Expand Your Knowledge with These Resources</h2>
+<ul>
+<li>
+<a href="https://www.w3schools.com/asp/">
+ASP Tutorial - Get started with ASP on W3Schools
+</a>
+</li>
+<li>
+<a href="https://www.webwiz.net/kb/">
+Classic ASP Tutorials & Articles - Master ASP with Web Wiz
+</a>
+</li>
+<li>
+<a href="https://www.w3schools.com/html/">
+HTML Tutorial - Build your web foundation with W3Schools
+</a>
+</li>
+<li>
+<a href="https://www.w3schools.com/css/">
+CSS Tutorial - Style your web pages with W3Schools
+</a>
+</li>
+<li>
+<a href="https://www.tutorialspoint.com/vbscript/index.htm">
+VBScript Tutorial - Learn VBScript from Tutorials Point
+</a>
+</li>
+<li>
+<a href="https://www.w3schools.com/asp/ado_intro.asp">
+ADO Tutorial - Explore ADO with W3Schools
+</a>
+</li>
+</ul>
+</section>
+<dl>
+<dt>HTML</dt>
+<dd>HyperText Markup Language - The foundation for building web pages.</dd>
+<dt>XML</dt>
+<dd>eXtensible Markup Language - A flexible language for structured data.</dd>
+</dl>
+</body>
+</html>
